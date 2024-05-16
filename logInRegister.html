@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Log In</title>
+         <!-- Cool Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+        <!-- Our stylesheet -->
+        <link rel="stylesheet" type="text/css" href="styles/shared/store-header.css">
+        <link rel="stylesheet" type="text/css" href="styles/shared/general.css">
+        <link rel="stylesheet" type="text/css" href="styles/pages/login_Register/logInRegister.css">
+        
+    </head>
+    <body>
+        <div class="header">
+            <div class="inner-header">
+                <header class="js-store-header store-header"></header>
+                <div id="content_container">
+                    <div  id="form_container">
+                        <div id="form_header_container">
+                            <h2 id="form_header">Register</h2>
+                        </div>
+
+                        <div id="form_content_container">
+                            <div id="form_content_inner_container">
+                                <input type="text" id="first_name" placeholder="First name">
+                                <input type="text" id="last_name" placeholder="Last name">
+                                <input type="email" id="email" placeholder="Email">
+                                <input type="password" id="password" placeholder="Password">
+                                <!--
+                                <div id="terms_and_condition">
+                                    <input type="checkbox" id="terms_and_condition_checkbox">
+                                    <P id="terms_and_condition_text"> I agree ewfedwsef fdesfew  w+efsd +fsdf sdf</P>
+                                </div>-->
+
+                                <div id="button_container">
+                                    <button type="button" id="login" class="disable">Login</button>
+                                    <button type="button" id="signUp">Register</button>
+                                </div>
+                                <div id="button_container">
+                                    <button type="button" id="hasAccount" >I have an account</button>
+                                    <button type="button" id="createAccount" class="disable">create Account</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape
+                rendering="auto">
+                <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18
+                58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48"_y="0"
+                fill="rgba(255,255,255,0.7)" />
+                <use xlink:href="#gentle-wave" x="48" y="3"
+                fill="rgba(255,255,255,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" _y="5"
+                fill="rgba(255,255,255,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                </g>
+                </svg>
+            </div>
+        </div>
+    
+    
+    <!-- Our script must be loaded after firebase references -->
+    <script type="module" src="scripts/pages/logInRegister.js"></script>
+    <script type="module" src="scripts/components/loginRegister/logInRegister.js"></script>
+    <!--
+    <script> 
+        document.addEventListener('contextmenu', event=> event.preventDefault()); 
+        document.onkeydown = function(e) { 
+        if(event.keyCode == 123) { 
+        return false; 
+        } 
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){ 
+        return false; 
+        } 
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){ 
+        return false; 
+        } 
+        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){ 
+        return false; 
+        } 
+        } 
+        </script> -->
+    </body>
+</html>
+
