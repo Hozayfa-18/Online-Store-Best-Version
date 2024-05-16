@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Checkout</title>
+
+    <!-- This code is needed for responsive design to work properly on a phone.
+      (Responsive design = make the website look good on smaller screen sizes). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Load the font Roboto from Google Fonts. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Our custom CSS for this page. -->
+    <link rel="stylesheet" href="styles/shared/general.css">
+    <link rel="stylesheet" href="styles/pages/checkout/checkout-header.css">
+    <link rel="stylesheet" href="styles/pages/checkout/checkout.css">
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </head>
+  <body>
+    <header class="js-checkout-header checkout-header"></header>
+
+    <main>
+      <div class="page-title">Review your order</div>
+
+      <section class="checkout-grid">
+        <div class="js-cart-summary cart-summary"></div>
+        <div class="js-payment-summary payment-summary"></div>
+        <div class="js-delivery-summary delivery-summary"></div>
+      </section>
+    </main>
+
+    <!-- PayPal's JavaScript code. Due to financial regulations,
+      we must load this code using a <script> tag. -->
+    <script src="https://www.paypal.com/sdk/js?client-id=AQDFV9UYr1aiAD8asSpV_emI7I7BU2U_NjmlFD8xMkZljx4vzpPeZe9ZE7qQAAjUxFCdrRrznxr_V5PB&currency=EUR&disable-funding=sofort,giropay,sepa,venmo,paylater,card"></script>
+
+    <!-- Our custom JavaScript for this page. -->
+    <script type="module" src="scripts/pages/checkout.js"></script>
+    <!--
+    <script> 
+      document.addEventListener('contextmenu', event=> event.preventDefault()); 
+      document.onkeydown = function(e) { 
+      if(event.keyCode == 123) { 
+      return false; 
+      } 
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){ 
+      return false; 
+      } 
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){ 
+      return false; 
+      } 
+      if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){ 
+      return false; 
+      } 
+      } 
+      </script> -->
+  </body>
+</html>
