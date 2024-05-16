@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Orders</title>
+
+    <!-- This code is needed for responsive design to work properly on a phone.
+      (Responsive design = make the website look good on smaller screen sizes). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Load the font Roboto from Google Fonts. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Our custom CSS for this page. -->
+    <link rel="stylesheet" href="styles/shared/general.css">
+    <link rel="stylesheet" href="styles/shared/store-header.css">
+    <link rel="stylesheet" href="styles/pages/orders.css">
+    
+
+  </head>
+  <body>
+    <div class="header">
+      <div class="inner-header">
+        <header class="js-store-header store-header"></header>
+
+        <main>
+          <div class="page-title">Your Orders</div>
+          <div class="js-orders-grid orders-grid"></div>
+          
+        </main>
+    </div>
+    <div>
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28" preserveAspectRatio="none" shape
+      rendering="auto">
+      <defs>
+      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18
+      58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+      <use xlink:href="#gentle-wave" x="48"_y="0"
+      fill="rgba(255,255,255,0.7)" />
+      <use xlink:href="#gentle-wave" x="48" y="3"
+      fill="rgba(255,255,255,0.5)" />
+      <use xlink:href="#gentle-wave" x="48" _y="5"
+      fill="rgba(255,255,255,0.3)" />
+      <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+      </g>
+      </svg>
+  </div>
+  </div>
+
+    <!-- Our custom JavaScript for this page. -->
+    <script type="module" src="scripts/pages/orders.js"></script>
+    <!--
+    <script> 
+      document.addEventListener('contextmenu', event=> event.preventDefault()); 
+      document.onkeydown = function(e) { 
+      if(event.keyCode == 123) { 
+      return false; 
+      } 
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){ 
+      return false; 
+      } 
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){ 
+      return false; 
+      } 
+      if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){ 
+      return false; 
+      } 
+      } 
+      </script> -->
+  </body>
+</html>
