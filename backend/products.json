@@ -1,0 +1,241 @@
+[
+  {
+    "id": "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
+    "image": "images/products/athletic-cotton-socks-6-pairs.jpg",
+    "imageInfo": "images/products/athletic-cotton-socks-6-pairs.jpg",
+    "name": "Black and Gray Athletic Cotton Socks - 6 Pairs",
+    "nameInfo":"Black and Gray Athletic Cotton Socks - 6 Pairs",
+    "description":{
+      "text":"Black and Gray Athletic Cotton Socks-",
+      "sign":""
+    },
+    "category":["Sport","CLothes"],
+    "rating": {
+      "stars": 4.5,
+      "count": 87
+    },
+    "priceCents": 1090,
+    "keywords": [
+      "socks",
+      "sports",
+      "apparel",
+      "Sport",
+      "CLothes"
+    ]
+  },
+  {
+    "id": "15b6fc6f-327a-4ec4-896f-486349e85a3d",
+    "image": "images/products/intermediate-composite-basketball.jpg",
+    "name": "Intermediate Size Basketball",
+    "imageInfo": "images/products/intermediate-composite-basketball.jpg",
+    "nameInfo":"Intermediate Size Basketball",
+    "description":{
+      "text":"Intermediate Size Basketball",
+      "sign":""
+    },
+    "category":["Sport"],
+    "rating": {
+      "stars": 4,
+      "count": 127
+    },
+    "priceCents": 2095,
+    "keywords": [
+      "sports", 
+      "basketballs",
+      "Sport"
+    ]
+  },
+  {
+    "id": "83d4ca15-0f35-48f5-b7a3-1ea210004f2e",
+    "image": "images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg",
+    "imageInfo": "images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg",
+    "name": "Adults Plain Cotton T-Shirt - 2 Pack", 
+    "nameInfo": "Adults Plain Cotton T-Shirt - 2 Pack",
+    "description":{
+      "text":"Adults Plain Cotton T-Shirt",
+      "sign":""
+    },
+    "category":["Clothes"],
+    "rating": {
+      "stars": 4.5,
+      "count": 56
+    },
+    "priceCents": 799,
+    "keywords": [
+      "tshirts",
+      "apparel",
+      "mens",
+      "Clothes"
+    ],
+    "type": "clothing",
+    "sizeChartLink": "clothing-size-chart.png"
+  },
+  {
+    "id": "54e0eccd-8f36-462b-b68a-8182611d9add",
+    "image": "images/products/black-2-slot-toaster.jpg",
+    "imageInfo": "images/products/black-2-slot-toaster.jpg",
+    "name": "2 Slot Toaster - Black",
+    "nameInfo": "2 Slot Toaster - Black",
+    "description":{
+      "text":"2 Slot Toaster",
+      "sign":""
+    },
+    "category":["Electronics"],
+    "rating": {
+      "stars": 4.5,
+      "count": 56
+    },
+    "priceCents": 1899,
+    "keywords": [
+      "toaster",
+      "kitchen",
+      "appliances",
+      "Electronics"
+    ]
+  },
+  {
+    "id": "3ebe75dc-64d2-4137-8860-1f5a963e534b",
+    "image": "images/products/6-piece-non-stick-baking-set.webp",
+    "imageInfo": "images/products/6-piece-non-stick-baking-set.webp",
+    "name": "6-Piece Nonstick, Carbon Steel Oven Bakeware Baking Set",
+    "nameInfo": "6-Piece Nonstick, Carbon Steel Oven Bakeware Baking Set",
+    "description":{
+      "text":"6 Piece White Dinner Plate Set",
+      "sign":""
+      
+    },
+    "category":["Kitchen","Electronics"],
+    "rating": {
+      "stars": 4.5,
+      "count": 56
+    },
+    "priceCents": 3499,
+    "keywords": [
+      "kitchen", 
+      "cookware",
+      "Electronics"
+    ]
+    
+  },
+  {
+    "id": "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
+    "image": "images/products/luxury-tower-set-6-piece.jpg",
+    "imageInfo": "images/products/luxury-tower-set-6-piece.jpg",
+    "name": "Luxury Towel Set - Graphite Gray",
+    "nameInfo": "Luxury Towel Set - Graphite Gray",
+    "description":{
+      "text":"Luxury Towel Set",
+      "sign":"Graphite Gray"
+    },
+    "category":["Bathroom"],
+    "rating": {
+      "stars": 4.5,
+      "count": 56
+    },
+    "priceCents": 3599,
+    "keywords": [
+      "bathroom", "washroom", "restroom",
+      "towels", "bath towels","Bathroom"
+    ]
+  },
+  {
+    "id": "dd82ca78-a18b-4e2a-9250-31e67412f98d",
+    "image": "images/products/liquid-laundry-detergent-plain.jpg",
+    "imageInfo": "images/products/liquid-laundry-detergent-plain.jpg",
+    "name": "Liquid Laundry Detergent, 110 Loads, 82.5 Fl Oz",
+    "nameInfo": "Liquid Laundry Detergent, 110 Loads, 82.5 Fl Oz",
+    "description":{
+      "text":"Liquid Laundry Detergent",
+      "sign":"110 Loads, 82.5 Fl Oz"
+    },
+    "category":["Cleaning","Bathroom"],
+    "rating": {
+      "stars": 4.5,
+      "count": 56
+    },
+    "priceCents": 799,
+    "keywords": [
+      "bathroom", "cleaning","Cleaning","Bathroom"
+    ]
+  },
+  {
+    "id": "77919bbe-0e56-475b-adde-4f24dfed3a04",
+    "image": "images/products/round-sunglasses-black.jpg",
+    "imageInfo": "images/products/round-sunglasses-black.jpg",
+    "name": "Round Sunglasses",
+    "nameInfo": "Round Sunglasses",
+    "description":{
+      "text":"Round Sunglasses",
+      "sign":""
+    },
+    "category":["Others"],
+    "rating": {
+      "stars": 4.5,
+      "count": 56
+    },
+    "priceCents": 1560,
+    "keywords": [
+      "Round Sunglasses","Others"
+    ]
+  },
+  {
+    "id": "3fdfe8d6-9a15-4979-b459-585b0d0545b9",
+    "image": "images/products/sky-flower-stud-earrings.jpg",
+    "imageInfo": "images/products/sky-flower-stud-earrings.webp",
+    "name": "Sterling Silver Sky Flower Stud Earrings",
+    "nameInfo": "Sterling Silver Sky Flower Stud Earrings",
+    "description":{
+      "text":"Sterling Silver Sky Flower Stud Earrings",
+      "sign":""
+    },
+    "category":["Others"],
+    "rating": {
+      "stars": 4.5,
+      "count": 56
+    },
+    "priceCents": 1799,
+    "keywords": [
+      "jewelry", "accessories", "womens","Others"
+    ]
+  },
+  {
+    "id": "58b4fc92-e98c-42aa-8c55-b6b79996769a",
+    "image": "images/products/trash-can-with-foot-pedal-50-liter.jpg",
+    "imageInfo": "images/products/trash-can-with-foot-pedal-50-liter.jpg",
+    "name": "Trash Can with Foot Pedal - Brushed Stainless Steel",
+    "nameInfo": "Trash Can with Foot Pedal - Brushed Stainless Steel",
+    "description":{
+      "text":"Trash Can with Foot Pedal",
+      "sign":"Brushed Stainless Steel"
+    },
+    "category":["Others","Kitchen"],
+    "rating": {
+      "stars": 4.5,
+      "count": 56
+    },
+    "priceCents": 8300,
+    "keywords": [
+      "garbage", "bins", "cans", "kitchen","Others"
+    ]
+  },
+  {
+    "id": "19c6a64a-5463-4d45-9af8-e41140a4100c",
+    "image": "images/products/duvet-cover-set-blue-twin.jpg",
+    "imageInfo": "images/products/duvet-cover-set-blue-twin.jpg",
+    "name": "Duvet Cover Set with Zipper Closure",
+    "nameInfo": "Duvet Cover Set with Zipper Closure",
+    "description":{
+      "text":"Duvet Cover Set with Zipper Closure",
+      "sign":""
+    },
+    "category":["Others"],
+    "rating": {
+      "stars": 4,
+      "count": 456
+    },
+    "priceCents": 2399,
+    "keywords": ["bedroom", "bed sheets", "sheets", "covers", "home"]
+    
+  }
+  
+]
