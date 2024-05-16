@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.header{
+    position: relative;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+.inner-header{
+  position: relative;
+  top: 300px;
+    height: 65vh;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.waves{
+    position: relative;
+    top: -20px;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -80px;
+    min-height: 200px;
+    max-height: 350px;
+}
+.parallax > use{
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
+}
+.parallax > use:nth-child(1){
+    animation-delay: -85s;
+    animation-duration: 4s;
+}
+.parallax > use:nth-child(2){
+    animation-delay: -86s;
+    animation-duration: 8s;
+}
+.parallax > use:nth-child(3){
+    animation-delay: -87s;
+    animation-duration: 12s;
+}
+.parallax > use:nth-child(4){
+    animation-delay: -88s;
+    animation-duration: 15s;
+}
+
+@keyframes move-forever{
+    0%{
+        transform: translate3d(-90px,0,0);
+    }
+    100%{
+        transform: translate3d(85px,0,0);
+    }
+}
+@media(max-width: 768px) {
+    .waves{
+        height: 40px;
+        min-height: 40px;
+    }
+    .content{
+        height: 30vh;
+    }
+    h1{
+        font-size: 24px;
+    }
+}
+.inner-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content_container {
+    width: 25%;
+    height: 80%;
+    position: relative;
+    top: -100px;
+    z-index: 10;
+    
+}
+
+#form_container {
+    width: 100%;
+    height: 100%;
+
+    background-color: #d7d7d7;
+    box-shadow: 0 0 50px 20px #000;
+    border-radius: 2%;
+
+    
+    overflow: auto;
+    
+}
+/* width */
+#form_container::-webkit-scrollbar {
+    width: 5px;
+    
+  }
+  
+  /* Track */
+#form_container::-webkit-scrollbar-track {
+background: #d3d3d3; 
+}
+
+/* Handle */
+#form_container::-webkit-scrollbar-thumb {
+background: #888; 
+
+}
+
+/* Handle on hover */
+#form_container::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+
+#form_header_container {
+    width: 100%;
+    height: 5%;
+    
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    border-bottom: 1px solid transparent;
+    border-image: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF) 20;
+    background: #2c2c2c;
+
+    
+}
+
+#form_header {
+    display: inline-block;
+    font-size: 15px;
+    font-family: Bowlby One SC;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    background: -webkit-linear-gradient(25deg, #ffffff, #d7d5d5, #a4a3a3, #626162, #313131);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+#form_content_container {
+    width: 100%;
+    height: 70%;
+
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 30px;
+    
+    
+}
+
+#form_content_inner_container {
+    width: 75%;
+    height: 100%;
+    float: left;
+
+}
+
+#form_content_inner_container #first_name, #last_name, #email, #password{
+    max-height: 60px;
+    transition: max-height 1s;
+}
+
+#first_name, #last_name, #email, #password{
+    width: 100%;
+    height: 40px;
+
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+    background: #000;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: #fff;
+    font-size: 12px;
+
+    border-bottom: 2px solid transparent;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-image: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF) 1;
+}
+
+#terms_and_condition{
+    display: flex;
+    align-items: start;
+    margin-bottom: 20px;
+}
+#terms_and_condition_checkbox{
+    position: relative;
+    top: 2px;
+}
+#terms_and_condition_text{
+    color: #000;
+    font-size: 14px;
+    position: relative;
+    right: -10px;
+}
+#terms_and_condition_checkbox{
+    max-height: 20px;
+    transition: max-height 1s;
+}
+
+#button_container {
+    width: 100%;
+    height: 10%;
+
+    background-image: linear-gradient(90deg, #000000, #000000 50%, #000000 50%, #000000);
+    color: #fff;
+    float: left;
+    margin-bottom: -5px;
+    margin-top: 5px;
+}
+
+#button_container button {
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    background: transparent;
+    color: inherit;
+
+    font-family: Montserrat;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 12px;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button_container button.disable{
+    background-image: linear-gradient(90deg, #ffffff, #d4d4d4 , #7d7d7d , #575757);
+    color: #7d7a7a;
+    cursor: not-allowed;
+}

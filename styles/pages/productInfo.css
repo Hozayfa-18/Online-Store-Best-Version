@@ -1,0 +1,135 @@
+body{
+  margin-top: 140px;
+  background-color: #fefefe;
+  height: 2000px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 2000px;
+  gap: 40px;
+  flex-direction: row;
+  position: relative;
+  right: -70px;
+  top: 50px;
+  margin-bottom: 200px;
+
+}
+.product-container .img-container{
+  background-color: #ffffff;
+  width: 550px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
+  
+}
+.product-image{
+  width: 550px;
+  height: 550px;
+}
+
+.text-container{
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  flex-direction: column;
+  max-width: 470px;
+}
+.text-container .product-name{
+  font-size:30px;
+}
+.text-container .price-design{
+  color: rgb(98, 160, 5);
+  font-size: 25px;
+}
+.product-genr{
+  font-size: 20px;
+}
+.genr-design{
+  color: #807d7d;
+}
+
+.product-container .added-to-cart-message {
+  color: rgb(6, 125, 98);
+  font-size: 16px;
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+
+  /* We will use JavaScript to change this opacity. */
+  opacity: 0;
+}
+
+.product-container .added-to-cart-message img {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.product-container .added-to-cart-message.is-visible {
+  opacity: 1;
+  transition: none;
+}
+
+.product-container .add-to-cart-button {
+  text-align: center;
+  width: 50%;
+  padding: 8px;
+  border-radius: 50px;
+  color: black;
+  background-color: white;
+}
+.product-container .add-to-cart-button:hover {
+  width: 50%;
+  padding: 8px;
+  border-radius: 50px;
+  color: white;
+  background-color: black;
+}
+
+.description-container{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 2000px;
+  flex-direction: row;
+  position: relative;
+  right: -70px;
+  margin-bottom: 200px;
+}
+.description-box{
+  background-color: #ffffff;
+  width: 1000px;
+  height: inherit;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
+}
+.description-title{
+  display: flex;
+  justify-content: center;
+}
+.description-text-container{
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+}
+.description-text{
+  font-size: 24px;
+  color: #3d3d3d;
+  position: relative;
+  right: 20px;
+  max-width: 200px;
+}

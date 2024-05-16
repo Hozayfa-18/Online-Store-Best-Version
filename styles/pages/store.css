@@ -1,0 +1,343 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;500;700&display=swap');
+
+.header{
+    position: relative;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+.inner-header{
+  position: relative;
+  top: 130px;
+  height: 60vh;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0px;
+  
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.waves{
+    position: relative;
+    top: -20px;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -80px;
+    min-height: 200px;
+    max-height: 350px;
+}
+.parallax > use{
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
+}
+.parallax > use:nth-child(1){
+    animation-delay: -85s;
+    animation-duration: 4s;
+}
+.parallax > use:nth-child(2){
+    animation-delay: -86s;
+    animation-duration: 8s;
+}
+.parallax > use:nth-child(3){
+    animation-delay: -87s;
+    animation-duration: 12s;
+}
+.parallax > use:nth-child(4){
+    animation-delay: -88s;
+    animation-duration: 15s;
+}
+
+@keyframes move-forever{
+    0%{
+        transform: translate3d(-90px,0,0);
+    }
+    100%{
+        transform: translate3d(85px,0,0);
+    }
+}
+@media(max-width: 768px) {
+    .waves{
+        height: 40px;
+        min-height: 40px;
+    }
+    .content{
+        height: 30vh;
+    }
+    h1{
+        font-size: 24px;
+    }
+}
+
+.store-describtion-container{
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.store-describtion-container .store-describtion{
+  font-size: 30px;
+}
+.store-describtion-container .store-describtion-guide{
+  font-size: 15px;
+  max-width: 300px;
+
+}
+
+
+.search-buttons-grid{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc(960px * 999 - 100% * 999);
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.search-buttons .category{
+  color: white;
+  border:2px white solid;
+  border-radius: 6px;
+  padding: 7px 15px 7px 15px;
+  font-size: 20px;
+  background: transparent;
+}
+.search-buttons .category:hover{
+  background-color: rgb(60, 60, 60);
+}
+
+.main{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.products-grid {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  grid-column-gap: 50px;
+  grid-row-gap: 30px;
+  padding-top: 30px;
+  max-width: 600px;
+  
+  
+  
+  
+
+  /* repeat(8, 1fr) is a way to repeat 1fr without having
+    to type "1fr" 8 times. repeat(...) is a special
+    property that works with display: grid; */
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 2000px) {
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1650px) {
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1300px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 1000px) {
+  .products-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .products-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.products-grid .empty-results-message {
+  padding-left: 10px;
+  padding-top: 10px;
+  grid-column: span 2;
+}
+
+.products-grid .product-container {
+  
+  padding-top: 40px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  
+  margin-right: -20px;
+  border-radius: 6px;
+
+  box-shadow: 0 4px 8px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
+  border-right: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+.product-image-container-container {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.products-grid .product-info{
+  text-decoration: none;
+}
+
+.products-grid .product-image-container {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  cursor: pointer;
+
+  height: 150px;
+  max-width: 450px;
+  margin-bottom: 30px;
+}
+
+.products-grid .product-image {
+  /* Images will overflow their container by default. To
+    prevent this, we set max-width and max-height to 100%
+    so they stay inside their container. */
+  max-width: 100%;
+  max-height: 100%;
+  
+  
+}
+
+.products-grid .product-name {
+  font-weight: 700;
+  font-size: 25px;
+  height: inherit;
+  margin-bottom: -5px;
+  color: black;
+  cursor: pointer;
+}
+
+.products-grid .product-rating-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.products-grid .product-rating-stars {
+  width: 100px;
+  margin-right: 6px;
+}
+
+.products-grid .product-rating-count {
+  color: #017cb6;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.products-grid .product-price {
+  font-weight: 700;
+  margin-bottom: -30px;
+  margin-left: 200px;
+  color: green;
+  font-size: 24px;
+}
+
+.products-grid .product-quantity-container {
+  margin-bottom: 0px;
+  max-height: 0px;
+}
+
+.products-grid .product-quantity-container .js-quantity-selector{
+  max-height: 0px;
+  overflow: hidden;
+  height: 0px;
+}
+.products-grid .variation-name {
+  font-weight: 500;
+  margin-bottom: 1px;
+}
+
+.products-grid .variation-options-container {
+  cursor: default;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.products-grid .variation-option {
+  background-color: white;
+  border: 1px solid rgb(173, 177, 184);
+  padding: 5px 8px;
+  border-radius: 8px;
+
+  font-size: 15px;
+  margin-right: 3px;
+  margin-bottom: 7px;
+}
+
+.products-grid .variation-option.is-selected {
+  border: 2px solid rgb(231, 117, 2);
+  padding: 4px 7px;
+}
+
+.products-grid .product-spacer {
+  flex: 1;
+}
+
+.products-grid .added-to-cart-message {
+  color: rgb(6, 125, 98);
+  font-size: 16px;
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+
+  /* We will use JavaScript to change this opacity. */
+  opacity: 0;
+}
+
+.products-grid .added-to-cart-message img {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.products-grid .added-to-cart-message.is-visible {
+  opacity: 1;
+  transition: none;
+}
+
+.products-grid .add-to-cart-button {
+  width: 50%;
+  padding: 8px;
+  border-radius: 50px;
+  color: black;
+  background-color: white;
+}
+.products-grid .add-to-cart-button:hover {
+  width: 50%;
+  padding: 8px;
+  border-radius: 50px;
+  color: white;
+  background-color: black;
+}
