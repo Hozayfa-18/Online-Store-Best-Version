@@ -2,12 +2,12 @@
 
 
 The common funtionalities are:-
-• The user can see all the products and what category they belong to
-• the user can search for products using the searchbar or by simply choosing a category
-• The user can see the detailed description of the product
-• The user can add the products to cart (It stays in localstorage)
-• The user must login/signup to place order
-• The user can see Delivery status of the ordered products, the three delivery status are 'Preparing', 'Shipping' and 'Delivered'
+1. The user can see all the products and what category they belong to
+2. the user can search for products using the searchbar or by simply choosing a category
+3. The user can see the detailed description of the product
+4. The user can add the products to cart (It stays in localstorage)
+5. The user must login/signup to place order
+6. The user can see Delivery status of the ordered products, the three delivery status are 'Preparing', 'Shipping' and 'Delivered'
 • The user can also track the ordered produckt
 • The Admin is the one to give the tracking number through the database after the preparing phase is over
 • The user has to authenticate the Email used to signup via Email Authentication
