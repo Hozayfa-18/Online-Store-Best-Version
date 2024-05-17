@@ -15,13 +15,14 @@ The common funtionalities are:-
 11. The user recives an invoice via Email
 12. The users information and all their ordered products are stored in the database
 
-Built with:-
+Built with:
 
-  Front-End:-
+  Front-End:
   
     1. Javascript
     2. Html
     3. CSS
-  Back-End:-
+    
+  Back-End:
   
     1. Firebase
