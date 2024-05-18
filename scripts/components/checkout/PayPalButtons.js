@@ -119,7 +119,7 @@ export class PayPalButtons extends Component {
       }
       else {
           // User is signed out
-           alert('oh no');
+          alert('Please Sign-in/Log-in to place an order');
       }
   });
     

@@ -70,7 +70,7 @@ export class ProfileGrid extends ComponentV2 {
             } 
             else {
                 // User is signed out
-                 alert('oh no');
+                alert('Please Sign-in/Log-in to see your Profile');
             }
         });
     }

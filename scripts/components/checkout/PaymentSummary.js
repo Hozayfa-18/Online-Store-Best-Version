@@ -190,7 +190,7 @@ export class PaymentSummary extends Component {
       else {
         // User is signed out
         
-        alert('oh no');
+        //alert('You are not loged in');
         
         if(confirm("you have to log in first") ===false){
         actions.disable();  

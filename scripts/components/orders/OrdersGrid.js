@@ -176,7 +176,7 @@ export class OrdersGrid extends Component {
       } 
       else {
           // User is signed out
-           alert('oh no');
+           alert('Please Sign-in/Log-in to see your orders');
       }
       
   });
